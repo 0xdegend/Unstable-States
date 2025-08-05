@@ -13,7 +13,7 @@ const Community = () => {
           </p>
           <div className="social-links">
             <a
-              href="https://x.com/unstablestatedollar"
+              href="https://x.com/USD_BONK"
               target="_blank"
               rel="noopener"
               aria-label="Twitter"
@@ -21,19 +21,14 @@ const Community = () => {
               <span className="social-icon">X</span>
             </a>
             <a
-              href="https://t.me/unstablestatedollar"
+              href="https://t.me/usd_bonk/1"
               target="_blank"
               rel="noopener"
               aria-label="Telegram"
             >
               <span className="social-icon">TG</span>
             </a>
-            <a
-              href="https://discord.gg/unstablestatedollar"
-              target="_blank"
-              rel="noopener"
-              aria-label="Discord"
-            >
+            <a href="##" target="_blank" rel="noopener" aria-label="Discord">
               <span className="social-icon">DC</span>
             </a>
           </div>
