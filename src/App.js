@@ -35,7 +35,7 @@ export default function App() {
       {/* Community Section */}
       <Community />
       {/* References Section */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
