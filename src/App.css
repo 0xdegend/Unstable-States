@@ -80,6 +80,7 @@ p {
 .dextools-iframe > iframe {
   width: 60%;
   height: 500px;
+  border: none;
 }
 
 @media (max-width: 746px) {
