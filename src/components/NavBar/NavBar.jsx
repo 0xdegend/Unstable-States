@@ -35,11 +35,10 @@ const NavBar = () => {
             onClick={() => setNavOpen(false)}
           >
             <img
-              src="/assets/logo.png"
+              src="/assets/LOGO_small_topbar.png"
               alt="Unstable States Dollar logo"
               className="logo"
             />
-            <span className="logo-text">USD</span>
           </a>
           <nav className={`nav-links ${navOpen ? "open" : ""}`} id="navLinks">
             <a

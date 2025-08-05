@@ -7,7 +7,7 @@ const HeroPage = () => {
         id="home"
         className="hero"
         style={{
-          backgroundImage: "url('/assets/bg-abstract.png')",
+          backgroundImage: "url('/assets/USD-new-hero-bg.jpg')",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -16,7 +16,7 @@ const HeroPage = () => {
         <div className="hero-overlay" />
         <div className="hero-content">
           <div className="hero-logo">
-            <img src="/assets/logo.png" alt="$USD logo" />
+            <img src="/assets/LOGO_Big_center.png" alt="$USD logo" />
           </div>
           <h1 className="hero-title">Unstable States Dollar</h1>
           <p className="hero-subtitle">The only dollar that embraces chaos.</p>

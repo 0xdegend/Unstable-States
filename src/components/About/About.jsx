@@ -41,10 +41,14 @@ const About = () => {
           </p>
         </div>
         <div className="dextools-iframe">
+          <div>
+            <h2>Live Chart</h2>
+            <p>Real-time price data and trading volume</p>
+          </div>
           <iframe
             id="dextools-widget"
             title="DEXTools Trading Chart"
-            src="https://www.dextools.io/widget-chart/en/solana/pe-light/F8afaNTv6cKZU7uTPkj1o49dNtJxMaPDNcu7W47sw3Hs?theme=dark&chartType=0&chartResolution=30&drawingToolbars=false"
+            src="https://www.dextools.io/widget-chart/en/solana/pe-light/F8afaNTv6cKZU7uTPkj1o49dNtJxMaPDNcu7W47sw3Hs?theme=dark&chartType=1&chartResolution=30&drawingToolbars=false"
           ></iframe>
         </div>
       </section>
