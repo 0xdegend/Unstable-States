@@ -1,6 +1,19 @@
 import React from "react";
-
+import { FaCopy } from "react-icons/fa";
+import { message } from "antd";
 const HeroPage = () => {
+  const [messageApi, contextHolder] = message.useMessage();
+  const contractAddress = "7WXaHLjatDZBAZ7hyRiFpYpGpPbcKiyHf6HaxUzSbonk";
+  const handleCopy = () => {
+    if (contractAddress) {
+      navigator.clipboard.writeText(contractAddress);
+
+      messageApi.open({
+        type: "success",
+        content: "Copied",
+      });
+    }
+  };
   return (
     <div>
       <section
@@ -35,6 +48,13 @@ const HeroPage = () => {
             >
               Join Community
             </a>
+          </div>
+          {contextHolder}
+          <div className="hero-last-btn">
+            <button className="btn btn-secondary" onClick={handleCopy}>
+              <FaCopy className="copy-icon" />
+              Copy Token Address
+            </button>
           </div>
         </div>
       </section>

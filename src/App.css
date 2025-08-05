@@ -82,7 +82,16 @@ p {
   height: 500px;
   border: none;
 }
-
+.hero-last-btn > button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy-icon {
+  margin-right: 15px;
+  font-size: 18px;
+}
 @media (max-width: 746px) {
   .dextools-iframe > iframe {
     width: 95%;
@@ -195,6 +204,10 @@ p {
   position: relative;
   z-index: 1;
   max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero-logo img {
@@ -236,7 +249,7 @@ p {
 .btn {
   padding: 0.75rem 1.5rem;
   border: 2px solid var(--accent-color);
-  border-radius: 30px;
+  border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s ease, color 0.3s ease;
