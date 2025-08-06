@@ -697,7 +697,7 @@ p {
     height: 100dvh;
     background: rgba(0, 0, 0);
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 1.2rem;
     padding: calc(var(--nav-height, 56px) + 1rem) 1rem 1rem;
     transform: translateX(-100%);
