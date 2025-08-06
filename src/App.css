@@ -691,18 +691,20 @@ p {
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: var(--nav-height);
+    top: 0;
     left: 0;
-    right: 0;
+    width: 50vw;
+    height: 100dvh;
     background: rgba(0, 0, 0);
     flex-direction: column;
     align-items: center;
     gap: 1.2rem;
-    padding: 1rem 0;
-    transform: translateY(-100%);
+    padding: calc(var(--nav-height, 56px) + 1rem) 1rem 1rem;
+    transform: translateX(-100%);
     opacity: 0;
     pointer-events: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 1000;
   }
 
   .nav-links.open {
@@ -713,6 +715,21 @@ p {
 
   .nav-toggle {
     display: block;
+  }
+
+  .nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+  }
+
+  .nav-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .hero-title {

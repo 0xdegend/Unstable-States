@@ -24,6 +24,19 @@ const NavBar = () => {
       sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
+
+  useEffect(() => {
+    if (navOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [navOpen]);
+
+  const closeMenu = () => setNavOpen(false);
   return (
     <div>
       {/* Navigation Bar */}
@@ -95,12 +108,18 @@ const NavBar = () => {
           <button
             className="nav-toggle"
             aria-label="Open navigation"
-            onClick={() => setNavOpen(!navOpen)}
+            onClick={() => setNavOpen((v) => !v)}
           >
             <FaBars />
           </button>
         </div>
       </header>
+      {/* Overlay */}
+      <div
+        className={`nav-overlay ${navOpen ? "active" : ""}`}
+        onClick={closeMenu}
+        aria-hidden={!navOpen}
+      />
     </div>
   );
 };
