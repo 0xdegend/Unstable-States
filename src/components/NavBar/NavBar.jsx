@@ -69,6 +69,13 @@ const NavBar = () => {
               About
             </a>
             <a
+              href="#"
+              // className={activeSection === "about" ? "active" : ""}
+              onClick={() => setNavOpen(false)}
+            >
+              Stake (Soon)
+            </a>
+            <a
               href="#tokenomics"
               className={activeSection === "tokenomics" ? "active" : ""}
               onClick={() => setNavOpen(false)}
