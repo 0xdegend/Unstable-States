@@ -70,10 +70,17 @@ const NavBar = () => {
             </a>
             <a
               href="#"
-              // className={activeSection === "about" ? "active" : ""}
-              onClick={() => setNavOpen(false)}
+              onClick={(e) => {
+                e.preventDefault(); // stop the "#" jump
+                setNavOpen(false); // close drawer/nav
+                window.open(
+                  "https://app.streamflow.finance/staking/solana/mainnet/zEYkTNer9K8iV8tcBLW75pRxw4NSBrttC7hDBFP9oBT",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
             >
-              Stake (Soon)
+              Stake
             </a>
             <a
               href="#tokenomics"
