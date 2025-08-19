@@ -6,7 +6,7 @@ const HowToBuy = () => {
     <div>
       <section id="buy" className="section buy">
         <div className="container">
-          <h2>How to Buy&nbsp;USD</h2>
+          <h2>How to Buy&nbsp;$USD</h2>
           <div className="steps">
             <div className="step">
               <div className="step-number">1</div>

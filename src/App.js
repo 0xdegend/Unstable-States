@@ -8,34 +8,21 @@ import Staking from "./components/Staking/Staking";
 import Footer from "./components/Footer/Footer";
 import Community from "./components/Community/Community";
 import HowToBuy from "./components/HowToBuy/HowToBuy";
+import MemeBank from "./components/MemeBank/MemeBank";
 
 // Main App component replicating the Unstable States Dollar site using React
 export default function App() {
   return (
     <>
       <NavBar />
-      {/* Hero Section */}
       <HeroPage />
-
-      {/* About Section */}
       <About />
-
-      {/* Tokenomics Section */}
       <Tokenomics />
-
-      {/* Roadmap Section */}
       <RoadMap />
-
-      {/* Dashboard & Staking Section */}
-
       <Staking />
-      {/* How To Buy Section */}
       <HowToBuy />
-
-      {/* Community Section */}
+      {/* <MemeBank /> */}
       <Community />
-      {/* References Section */}
-      {/* <Footer /> */}
     </>
   );
 }

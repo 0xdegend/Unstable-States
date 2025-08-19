@@ -83,6 +83,20 @@ const NavBar = () => {
               Stake
             </a>
             <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault(); // stop the "#" jump
+                setNavOpen(false); // close drawer/nav
+                window.open(
+                  "https://fascinated-fog-3ab.notion.site/ebd/25476dc4eb938026a2e3e8605b6ac0e0",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            >
+              Meme Bank
+            </a>
+            <a
               href="#tokenomics"
               className={activeSection === "tokenomics" ? "active" : ""}
               onClick={() => setNavOpen(false)}
