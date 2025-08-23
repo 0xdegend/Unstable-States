@@ -74,7 +74,7 @@ const NavBar = () => {
                 e.preventDefault(); // stop the "#" jump
                 setNavOpen(false); // close drawer/nav
                 window.open(
-                  "https://app.streamflow.finance/staking/solana/mainnet/zEYkTNer9K8iV8tcBLW75pRxw4NSBrttC7hDBFP9oBT",
+                  "https://app.streamflow.finance/staking/solana/mainnet/5hKwkhvCzJbkGyKtrdRm9t1QYecAvz1CQvdvMvQ29sKu",
                   "_blank",
                   "noopener,noreferrer"
                 );
