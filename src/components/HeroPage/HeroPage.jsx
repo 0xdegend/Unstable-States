@@ -32,7 +32,10 @@ const HeroPage = () => {
             <img src="/assets/LOGO_Big_center.png" alt="$USD logo" />
           </div>
           <h1 className="hero-title">Unstable States Dollar</h1>
-          <p className="hero-subtitle">The only dollar that embraces chaos.</p>
+          <p className="hero-subtitle">
+            The real USD is collapsing, The Unstable States Dollar is just as
+            unstable.
+          </p>
           <div className="hero-buttons">
             <a
               href="https://jup.ag"

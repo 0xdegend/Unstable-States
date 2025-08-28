@@ -30,7 +30,7 @@ const About = () => {
             The mission is simple: build infrastructure, rally the troops, and
             push $USD toward becoming the official unstable coin of crypto. Why
             $USD? • Meme-first, mission-powered • BONK ecosystem synergy • ATH
-            of $200K — still very early • Narrative-driven: the ultimate re-peg
+            of $2M — still very early • Narrative-driven: the ultimate re-peg
             challenge • Now with a committed CTO building with the community
             This isn’t your average stablecoin. This is $USD. Volatile by
             design.
