@@ -19,7 +19,7 @@ export default function App() {
       <About />
       <Tokenomics />
       <RoadMap />
-      <Staking />
+      {/* <Staking /> */}
       <HowToBuy />
       {/* <MemeBank /> */}
       <Community />

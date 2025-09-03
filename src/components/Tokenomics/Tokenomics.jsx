@@ -34,7 +34,7 @@ const Tokenomics = () => {
               Copied!
             </span>
           </div>
-          <div className="token-distribution">
+          {/* <div className="token-distribution">
             <div className="distribution-item">
               <h3>Liquidity</h3>
               <div className="bar">
@@ -63,7 +63,7 @@ const Tokenomics = () => {
               </div>
               <span>10%</span>
             </div>
-          </div>
+          </div> */}
           <div className="token-details">
             <h3>Liquidity</h3>
             <ul>

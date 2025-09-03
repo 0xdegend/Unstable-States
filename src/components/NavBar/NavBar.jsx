@@ -129,13 +129,13 @@ const NavBar = () => {
             >
               Roadmap
             </a>
-            <a
+            {/* <a
               href="#dashboard"
               className={activeSection === "dashboard" ? "active" : ""}
               onClick={() => setNavOpen(false)}
             >
               Dashboard
-            </a>
+            </a> */}
             <a
               href="#buy"
               className={activeSection === "buy" ? "active" : ""}
