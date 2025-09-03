@@ -83,7 +83,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  New Pool ($USD + other bonk tokens)
+                  New Pool ($USD + other $Bonk memes)
                 </a>
               </div>
             </div>
