@@ -68,7 +68,26 @@ const NavBar = () => {
             >
               About
             </a>
-            <a
+            <div class="dropdown">
+              <a href="#">Stake ▾</a>
+              <div class="dropdown-content">
+                <a
+                  href="https://app.streamflow.finance/staking/solana/mainnet/zEYkTNer9K8iV8tcBLW75pRxw4NSBrttC7hDBFP9oBT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Old Pool ($USD)
+                </a>
+                <a
+                  href="https://app.streamflow.finance/staking/solana/mainnet/5hKwkhvCzJbkGyKtrdRm9t1QYecAvz1CQvdvMvQ29sKu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  New Pool ($USD + other bonk tokens)
+                </a>
+              </div>
+            </div>
+            {/* <a
               href="#"
               onClick={(e) => {
                 e.preventDefault(); // stop the "#" jump
@@ -81,7 +100,7 @@ const NavBar = () => {
               }}
             >
               Stake
-            </a>
+            </a> */}
             <a
               href="#"
               onClick={(e) => {
