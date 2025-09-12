@@ -34,36 +34,36 @@ const Tokenomics = () => {
               Copied!
             </span>
           </div>
-          {/* <div className="token-distribution">
+          <div className="token-distribution">
             <div className="distribution-item">
-              <h3>Liquidity</h3>
+              <h3>Staking Pool</h3>
               <div className="bar">
-                <div className="bar-inner" style={{ width: "50%" }}></div>
+                <div className="bar-inner" style={{ width: "30%" }}></div>
               </div>
-              <span>50%</span>
+              <span>30%</span>
             </div>
             <div className="distribution-item">
-              <h3>Community Rewards</h3>
-              <div className="bar">
-                <div className="bar-inner" style={{ width: "25%" }}></div>
-              </div>
-              <span>25%</span>
-            </div>
-            <div className="distribution-item">
-              <h3>Marketing &amp; Partnerships</h3>
-              <div className="bar">
-                <div className="bar-inner" style={{ width: "15%" }}></div>
-              </div>
-              <span>15%</span>
-            </div>
-            <div className="distribution-item">
-              <h3>Development</h3>
+              <h3>Raydium Liquidity Pool</h3>
               <div className="bar">
                 <div className="bar-inner" style={{ width: "10%" }}></div>
               </div>
               <span>10%</span>
             </div>
-          </div> */}
+            <div className="distribution-item">
+              <h3>Bonk Guy &amp; Nom</h3>
+              <div className="bar">
+                <div className="bar-inner" style={{ width: "10%" }}></div>
+              </div>
+              <span>10%</span>
+            </div>
+            <div className="distribution-item">
+              <h3>Community</h3>
+              <div className="bar">
+                <div className="bar-inner" style={{ width: "50%" }}></div>
+              </div>
+              <span>50%</span>
+            </div>
+          </div>{" "}
           <div className="token-details">
             <h3>Liquidity</h3>
             <ul>
